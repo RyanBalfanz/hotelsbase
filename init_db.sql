@@ -1,0 +1,25 @@
+drop table if exists hotels;
+create table if not exists hotels (
+	id INTEGER PRIMARY KEY,
+	hotelName VARCHAR,
+	stars VARCHAR,
+	price int,
+	cityName VARCHAR,
+	stateName VARCHAR,
+	countryCode int,
+	countryName VARCHAR,
+	address VARCHAR,
+	location VARCHAR,
+	url VARCHAR,
+	tripadvisorUrl VARCHAR,
+	latitude double,
+	longitude double,
+	latlong int,
+	propertyType int,
+	chainId int,
+	rooms int,
+	facilities text,
+	checkIn VARCHAR,
+	checkOut VARCHAR,
+	rating VARCHAR
+);
